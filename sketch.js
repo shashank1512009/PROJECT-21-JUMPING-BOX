@@ -29,6 +29,7 @@ function setup(){
     ball.shapeColor = rgb(255,255,255);
     ball.velocityX=-4;
     ball.velocityY=+4;
+
     //write code to add velocityX and velocityY
 
 }
@@ -52,7 +53,7 @@ function draw() {
         ball.velocityX=0;
         ball.velocityY=0;
         //write code to set velocityX and velocityY of ball as 0
-        
+        music.stop();
         //write code to stop music
     }
 
